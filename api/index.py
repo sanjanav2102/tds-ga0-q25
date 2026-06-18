@@ -286,7 +286,7 @@ TELEMETRY_DATA = json.loads("""
 async def latency_analytics(request: Request):
     body = await request.json()
     regions = body.get("regions", [])
-    threshold_ms = body.get("threshold_ms", 180)
+    threshold_ms = body.get("threshold_ms", 165)
 
     results = []
     for region in regions:
