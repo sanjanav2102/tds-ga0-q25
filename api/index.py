@@ -26,6 +26,7 @@ async def options_handler():
 
 TELEMETRY_DATA = json.loads("""
 [
+  [
   {
     "region": "apac",
     "service": "analytics",
